@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/app.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <title>Todo Muebles</title>
+  <link rel="icon" href="img/icon.png">
+</head>
+<body style="background-color: #e2f1f2;">
+  
+  <header>
+    <div class="center">
+      <img src="img/Logo2_TodoMuebles.png" alt="logo">
+    </div>      
+  </header>    
+    <main class="contenido-principal contenedor"> 
+    <h1 class="text-center">Contacto</h1>
+    <a href="index.html">Volver a inicio</a>
+    
+    <form class="formulario">
+      <fieldset>
+        <legend>Tus Datos</legend>
+        <div class="campo">
+          <label for="nombre">Nombre:</label>
+          <input class="input" id="nombre" type="text" placeholder="Tu Nombre" required>
+        </div>
+      <div class="campo">
+        <label for="asunto">Asunto</label>
+        <input class="input" id="asunto" type="text" placeholder="Tu Asunto">
+      </div>
+      <div class="campo">
+        <label for="email">E-mail</label>
+        <input class="input" id="email" type="text" placeholder="Tu E-mail">
+      </div>
+      <div class="campo">
+        <label for="tel">Telefono</label>
+        <input class="input" id="tel" type="tel" placeholder="Tu Telefono">
+      </div>
+      <div class="campo">
+        <label for="text">Mensaje:</label>
+        <textarea class="input" name="" id="" cols="30" rows="10"></textarea>        
+      </div>
+      <div class="campo">
+        <label for="date">Fecha:</label>
+        <input id="date" type="date" placeholder="Tu Asunto">
+      </div>      
+      </fieldset>
+      <fieldset>
+        <legend>País</legend>
+        <div class="campo">
+          <label for="pais">País</label>
+          <select name="" id="pais">
+            <option value="">--Seleccione--</option>
+            <option Selected>Perú</option>
+            <option value="">Ecuador</option>
+            <option value="">Bolivia</option>
+            <option value="">Colombia</option>
+            <option value="">Brazil</option>
+            <option value="">Chile</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Información Extra</legend>
+        <div class="campo">
+          <label for="cliente">Cliente</label>
+          <input id="cliente" type="radio" name="tipo">
+        </div>
+        <div class="campo">
+          <label for="proveedor">Proveedor</label>
+          <input id="proveedor" type="radio" name="tipo">
+        </div>
+        <div class="campo">
+          <label for="categoria">Categoría de Interés</label>
+          <input class="input" list="categorias" name="categorias">
+          <datalist id="categorias">
+            <option value="Comedor">
+            <option value="Dormitorio">
+            <option value="Oficina">
+            <option value="Sala">
+            <option value="Terraza">
+          </datalist>
+        </div> 
+      </fieldset>
+      <input class="btn" type="submit" value="Enviar Formulario">
+    </form>
+    </main>
+    <footer class="site-footer">
+      <div class="grid-footer contenedor">
+        <div class="redes">
+          <tr>
+            <td align="right">
+              <a href="http://www.twitter.com" target="_blank"><img src="img/tw.png" alt="" class="imagen1"></a>
+              <a href="http://www.facebook.com" target="_blank"><img src="img/fb.png" alt="" class="imagen1"></a>
+              <a href="http://www.youtube.com" target="_blank"><img src="img/yt.png" alt="" class="imagen1"></a>
+              <a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="" class="imagen1"></a>
+            </td>
+          </tr>
+        </div>
+        
+        <div>
+          <H3>Categorias</H3>
+          <nav id="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="comedor.html">Comedor</a>
+            <a href="dormitorio.html">Dormitorio</a>
+            <a href="Oficina.html">Oficina</a>
+            <a href="sala.html">Sala</a>
+            <a href="terraza.html">Terraza</a>
+          </nav>
+        </div>
+        <div>
+          <h3>Sobre nosotros</h3>
+          <nav class="navegacion">
+            <a href="clientes.html">Clientes</a>
+            <a href="nosotros.html">Mision y Vision</a>
+            <a href="historia.html">Historia</a>
+            <a href="politicas.html">Política de Privacidad</a>
+            
+          </nav>
+        </div>
+        <p>Todos los derechos Reservados, Todo Muebles</p>
+      </div>
+      
+    </footer>
+
+</body>
+</html>

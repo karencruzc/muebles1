@@ -1,0 +1,188 @@
+body {
+  font-family: "poppins";
+  margin: 200;
+  padding: 0;
+  flex-wrap: wrap;
+
+}
+.inflex {
+  min-width: 300px;
+}
+
+.inflex:first-child{
+  margin-bottom: 0px;
+
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+.contenedor-navegacion {
+  border-top: 1px solid #e1e1e1;
+}
+
+.nav-principal {
+  padding: 50px 0 30px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sobre-nosotros-grid{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.texto-nosotros {
+  flex-basis: 50%;
+  padding-left: 10px;
+}
+/*Categorias*/
+.categoria h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.categoria a {
+  text-align: center;
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+}
+.categoria a:hover {
+  background-color: #037bc0;
+  border-bottom-right-radius: 10px;
+}
+.listado-categorias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+img {
+  max-width: 100%;
+  display: block;  
+}
+
+.imagen2 {
+  width: 500px;
+  height: 200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*productos de ventas*/
+.imagen3 {
+  width: 400px;
+  height: 300px;
+  border-radius: 5px;
+  border: 2px double #aaabab63;
+}
+
+.texto2 {
+   font-size: 9pt;
+   text-align: center;
+   font-weight: bold;
+   color: #037bc0;
+}
+
+/*Contacto - Formulario*/
+.h2 {
+text-align: center;
+}
+
+.formulario {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.formulario fieldset {
+  border-color: black;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
+
+.formulario legend {
+  background-color: #037bc0;
+  width: 90%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.campo {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.campo label {
+  flex-basis: 100px;
+}
+
+.campo .input {
+  flex: 1;
+  padding: 10px;
+}
+
+/*Politicas de Privacidad*/
+
+.texto1 {
+  font-size: 11pt;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*Historia*/
+
+.imagen4 {
+  float: right;
+  margin-left: 20px;
+  width: 330px;
+}
+
+/*footer*/
+
+.imagen1 {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.redes {
+  display: flex;
+  margin-left: 50px;
+}
+
+.site-footer {
+  background-color: #44bce0;
+  margin-top: 50px;
+  padding: 40px 0 40px 0;
+}
+.grid-footer {
+  text-align: center;
+  display: contents;
+  grid-template-columns: repeat(3, 10fr);
+  gap: 20px;
+}
+
+/*clientes*/
+
+.imagen5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+}
