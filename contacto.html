@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/app.css">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap"
+    rel="stylesheet">
   <title>Todo Muebles</title>
   <link rel="icon" href="img/icon.png">
 </head>
+
 <body style="background-color: #e2f1f2;">
-  
+
   <header>
     <div class="center">
       <img src="img/Logo2_TodoMuebles.png" alt="logo">
-    </div>      
-  </header>    
-    <main class="contenido-principal contenedor"> 
+    </div>
+  </header>
+  <main class="contenido-principal contenedor">
     <h1 class="text-center">Contacto</h1>
-    <a href="index.html">Volver a inicio</a>
-    
+    <a href="index.html" class="ancor1">Volver a inicio</a>
+
     <form class="formulario">
       <fieldset>
         <legend>Tus Datos</legend>
@@ -27,39 +30,58 @@
           <label for="nombre">Nombre:</label>
           <input class="input" id="nombre" type="text" placeholder="Tu Nombre" required>
         </div>
-      <div class="campo">
-        <label for="asunto">Asunto</label>
-        <input class="input" id="asunto" type="text" placeholder="Tu Asunto">
-      </div>
-      <div class="campo">
-        <label for="email">E-mail</label>
-        <input class="input" id="email" type="text" placeholder="Tu E-mail">
-      </div>
-      <div class="campo">
-        <label for="tel">Telefono</label>
-        <input class="input" id="tel" type="tel" placeholder="Tu Telefono">
-      </div>
-      <div class="campo">
-        <label for="text">Mensaje:</label>
-        <textarea class="input" name="" id="" cols="30" rows="10"></textarea>        
-      </div>
-      <div class="campo">
-        <label for="date">Fecha:</label>
-        <input id="date" type="date" placeholder="Tu Asunto">
-      </div>      
+        <div class="campo">
+          <label for="asunto">Asunto</label>
+          <input class="input" id="asunto" type="text" placeholder="Tu Asunto">
+        </div>
+        <div class="campo">
+          <label for="email">E-mail</label>
+          <input class="input" id="email" type="text" placeholder="Tu E-mail">
+        </div>
+        <div class="campo">
+          <label for="tel">Telefono</label>
+          <input class="input" id="tel" type="tel" placeholder="Tu Telefono">
+        </div>
+        <div class="campo">
+          <!-- Mensaje -->
+          <label for="text">Mensaje:</label>
+          <textarea class="input" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <!-- Fecha -->
+        <div class="campo">
+          <label for="date">Fecha:</label>
+          <input id="date" type="date" placeholder="Fecha">
+        </div>
       </fieldset>
       <fieldset>
-        <legend>País</legend>
+        <legend>Distrito</legend>
         <div class="campo">
-          <label for="pais">País</label>
-          <select name="" id="pais">
+          <label for="distrito">Distrito</label>
+          <select name="" id="Distrito">
             <option value="">--Seleccione--</option>
-            <option Selected>Perú</option>
-            <option value="">Ecuador</option>
-            <option value="">Bolivia</option>
-            <option value="">Colombia</option>
-            <option value="">Brazil</option>
-            <option value="">Chile</option>
+            <!-- Selected a Lima -->
+            <option Selected>Lima</option>
+            <option value="">Ate</option>
+            <option value="">Barranco</option>
+            <option value="">Breña</option>
+            <option value="">Chorrillos</option>
+            <option value="">Independencia</option>
+            <option value="">Jesús María</option>
+            <option value="">La Molina</option>
+            <option value="">La Victoria</option>
+            <option value="">Lince</option>
+            <option value="">Los Olivos</option>
+            <option value="">Magdalena del Mar</option>
+            <option value="">Miraflores</option>
+            <option value="">Pueblo Libre</option>
+            <option value="">Rimac</option>
+            <option value="">San Borja</option>
+            <option value="">San Isidro</option>
+            <option value="">San Juan de Lurigancho</option>
+            <option value="">San Luis</option>
+            <option value="">San Martín de Porres</option>
+            <option value="">San Miguel</option>
+            <option value="">Santa Anita</option>
           </select>
         </div>
       </fieldset>
@@ -74,6 +96,7 @@
           <label for="proveedor">Proveedor</label>
           <input id="proveedor" type="radio" name="tipo">
         </div>
+        <!-- Categorias de Interes-->
         <div class="campo">
           <label for="categoria">Categoría de Interés</label>
           <input class="input" list="categorias" name="categorias">
@@ -84,49 +107,58 @@
             <option value="Sala">
             <option value="Terraza">
           </datalist>
-        </div> 
+        </div>
       </fieldset>
       <input class="btn" type="submit" value="Enviar Formulario">
     </form>
-    </main>
-    <footer class="site-footer">
+  </main>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="grid-footer contenedor">
+      <div class="redes">
+        <tr>
+          <td align="right">
+            <a href="http://www.twitter.com" target="_blank"><img src="img/redes/tw.png" alt="" class="imagen1"></a>
+            <a href="http://www.facebook.com" target="_blank"><img src="img/redes/fb.png" alt="" class="imagen1"></a>
+            <a href="http://www.youtube.com" target="_blank"><img src="img/redes/yt.png" alt="" class="imagen1"></a>
+            <a href="http://www.instagram.com" target="_blank"><img src="img//redes/ig.png" alt="" class="imagen1"></a>
+            <a href="http://www.whatsapp.com" target="_blank"><img src="img/redes/ws.png" alt="" class="imagen1"></a>
+          </td>
+        </tr>
+      </div>
       <div class="grid-footer contenedor">
-        <div class="redes">
-          <tr>
-            <td align="right">
-              <a href="http://www.twitter.com" target="_blank"><img src="img/tw.png" alt="" class="imagen1"></a>
-              <a href="http://www.facebook.com" target="_blank"><img src="img/fb.png" alt="" class="imagen1"></a>
-              <a href="http://www.youtube.com" target="_blank"><img src="img/yt.png" alt="" class="imagen1"></a>
-              <a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="" class="imagen1"></a>
-            </td>
-          </tr>
-        </div>
-        
         <div>
-          <H3>Categorias</H3>
+          <H3>Home</H3>
           <nav id="navegacion">
-            <a href="index.html">Inicio</a>
-            <a href="comedor.html">Comedor</a>
-            <a href="dormitorio.html">Dormitorio</a>
-            <a href="Oficina.html">Oficina</a>
-            <a href="sala.html">Sala</a>
-            <a href="terraza.html">Terraza</a>
-          </nav>
-        </div>
-        <div>
-          <h3>Sobre nosotros</h3>
-          <nav class="navegacion">
-            <a href="clientes.html">Clientes</a>
-            <a href="nosotros.html">Mision y Vision</a>
-            <a href="historia.html">Historia</a>
-            <a href="politicas.html">Política de Privacidad</a>
+            <a href="index.html" class="ancor">Inicio</a>
+            <a href="blog.html" class="ancor">Blog</a>
+            <a href="contacto.html" class="ancor">Contacto</a>
             
           </nav>
         </div>
-        <p>Todos los derechos Reservados, Todo Muebles</p>
+     <div>
+        <H3>Categorias</H3>
+        <nav id="navegacion">
+          <a href="comedor.html" class="ancor">Comedor</a><br>
+          <a href="dormitorio.html" class="ancor">Dormitorio</a><br>
+          <a href="Oficina.html" class="ancor">Oficina</a><br>
+          <a href="sala.html" class="ancor">Sala</a><br>
+          <a href="terraza.html" class="ancor">Terraza</a>
+        </nav>
       </div>
-      
-    </footer>
-
+      <div>
+        <h3>Nosotros</h3>
+        <nav class="navegacion">
+          <a href="clientes.html" class="ancor">Clientes</a>
+          <a href="misionyvision.html" class="ancor">Mision y Vision</a>
+          <a href="historia.html" class="ancor">Historia</a>
+          <a href="politicas.html" class="ancor">Política de Privacidad</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+      <p class="copy">Todos los derechos Reservados, Todo Muebles</p>
+    
+  </footer>
 </body>
 </html>
